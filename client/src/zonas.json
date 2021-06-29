@@ -1,0 +1,25 @@
+{
+    "fecha": "16/6/2021",
+    "zonas": [ {
+        "zona": "121",
+        "orden": "1",
+        "cierre_tildado": "No",
+        "cierre_adm": "No",
+        "cierre_fact": "No"
+    },
+    {
+        "zona": "122",
+        "orden": "2",
+        "cierre_tildado": "No",
+        "cierre_adm": "No",
+        "cierre_fact": "No"
+       },
+{
+    "zona": "123",
+    "orden": "3",
+    "cierre_tildado": "No",
+    "cierre_adm": "No",
+    "cierre_fact": "No"
+}
+]
+}

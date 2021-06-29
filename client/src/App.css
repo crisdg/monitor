@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.monitor--table-header {
+  text-align: center;
+  background-color: #ea80fc;
+  color: #000000;
+}
+
+.monitor--table-body {
+  text-align: center;
+}
+
+.monitor--table-body .true {
+  background-color: #81fca2;
+}
+
+.monitor--table-body .false {
+  background-color: #ff6969;
+}
+
+.zona-form--container {
+  width: 33vw;
+  height: 40vh;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+
+  background-color: #ea80fc;
+  color: #000000;
+}
+
+.zona-form--form {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.zona-form--items .check {
+  width: 20px;
+  height: 20px;
+  justify-self: flex-end;
+}
+
+.zona-form--items label {
+  width: 200px;
+  height: 20px;
+}
+
+.zona-form--items .form-btn {
+  width: 90px;
+  background-color: #7c4dff;
+  border-radius: 4px;
+  color: #ffffff;
+  margin: 0 15px 0;
+}
+.zona-form--container {
+  justify-content: center;
+}
+
+.zona-form--container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.monitor--agregar-button {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  background-color: red;
+}
+.monitor--agregar-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.monitor--agregar-button:hover {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  line-height: 40px;
+  border-radius: 25px;
+  color: white;
+}
+
+.monitor--agregar-button a:hover {
+  text-decoration: none;
+  color: white;
+}
+.monitor--cierre-button {
+  width: 70px;
+  height: 30px;
+  background-color: #7c4dff;
+  color: white;
+  border-radius: 5px;
+}
+.monitor--cierre-button a {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.container .monitor--filtro {
+  width: 200px;
+  height: 30px;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+}
+.monitor--eliminar-button {
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.monitor--eliminar-button a {
+  color: white;
+}
+
+.monitor--eliminar-button a:hover {
+  text-decoration: none;
+  color: white;
+}

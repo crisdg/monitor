@@ -31,6 +31,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //habilitar routing
 app.use("/", routes());
 
-app.listen(4000, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log("servidor funcionando");
 });

@@ -4,7 +4,8 @@
   "description": "programa para monitorear avances en cierres de zona",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node index.js"
   },
   "author": "Cristian Gomez",
   "license": "ISC",
